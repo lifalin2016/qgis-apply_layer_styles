@@ -1,0 +1,19 @@
+[general]
+name=Apply Layer Styles
+qgisMinimumVersion=3.16
+description=Copy a vector layer's style to other layers of the same geometry type, from a "Apply Styles" entry in the layer's Styles context menu.
+version=1.0
+author=Lars Nielsen, LIFA Digital and Claude AI
+email=lars.nielsen@lifadigital.dk
+
+about=Adds an "Apply Styles" entry to the bottom of a vector layer's right-click "Styles" submenu in the Layers panel. Choosing it opens a dialog listing every other vector layer in the project that shares the same geometry type (point / line / polygon), with a text box to filter the list by name. Check one or more layers and press OK to copy the source layer's full style (symbology, labeling, etc.) onto them.
+
+tracker=https://github.com/lifalin2016/qgis-apply_layers_styles/issues
+repository=https://github.com/lifalin2016/qgis-apply_layers_styles
+hasProcessingProvider=no
+tags=styles,symbology,layers,vector,renderer
+homepage=https://github.com/lifalin2016/qgis-apply_layers_styles
+category=Layers
+experimental=False
+deprecated=False
+server=False
